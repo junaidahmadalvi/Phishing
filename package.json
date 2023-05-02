@@ -2,13 +2,14 @@
   "name": "phishing",
   "version": "1.0.0",
   "description": "A Technician Finding App - MERN",
+  "main": "backend/main.js",
   "private": true,
   "scripts": {
     "start": "node backend/main.js",
     "server": "nodemon backend/main.js",
-    "client": "npm start --prefix client",
+    "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "install": "cd cleint && npm install && cd .. && cd backend && npm install && cd .."
+    "install": "cd client && npm install && cd .. && cd backend && npm install && cd .."
   },
   "repository": {
     "type": "git",
