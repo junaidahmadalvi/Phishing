@@ -38,7 +38,7 @@ function Login()
             // }
         //  };
         
-            fetch("http://localhost:7000/loginUser", {
+            fetch("https://1a30-111-68-104-82.ngrok-free.app/loginUser", {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
